@@ -1,0 +1,35 @@
+h1{
+    color:rgb(160,50,154)
+}
+
+div{
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+    margin-bottom:10px;
+}
+
+.alerta-importante.alerta-no-importante
+{
+    background-color: rgb(15, 148, 66);
+    width: 100px;
+    height: 100px;
+}
+
+.alerta-no-importante{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+.alerta-importante{
+    background-color: rgb(166, 233, 10);
+    width: 100px;
+    height: 100px;
+}
+
+#caja{
+    border: 1px solid;
+    height: 5px;
+    width: 50px;
+}

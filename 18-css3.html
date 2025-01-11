@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .gradiente{
+            width: 200px;
+            height: 100px;
+            background-image: linear-gradient(to right,green,blue);
+            margin-inline:auto;
+            box-shadow: 5px 5px green;
+            transform: scale(2,2);
+            transform: translateY(100px);
+            transform: rotate(15deg);  
+            transition: width 4s,height 2s;     
+            /* animation-name: animationOne;
+            animation-duration: 3s;
+            animation-iteration-count: 10; */
+
+        }
+
+        @keyframes animationOne{
+            from{background-color: yellow;}
+            to{background-color:green;}
+        }
+
+        div:hover{
+            width: 400px;
+            height: 200px;
+        }
+        p{
+            text-shadow: 2px 2px yellow;
+        }
+    </style>
+</head>
+<body >
+    <div class="gradiente"> <p>Hola Mundo</p></div>
+</body>
+</html>

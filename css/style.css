@@ -1,0 +1,9 @@
+h1{color: aqua;}
+h1{background-color:mediumturquoise;}
+p{color: brown;}
+p{background-color: bisque;}
+body{
+    /* background-color: rgb(rgb(59, 180, 134), rgb(35, 206, 35), rgb(21, 21, 165)); */
+     background-image: url("../assets/pngtree-faceted-abstract-background.jpg");
+     background-size: 50%,50%,25%;
+    }   

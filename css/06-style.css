@@ -1,0 +1,77 @@
+.mi-clase {
+    background-color: aqua;
+    width: 500px;
+    height: 100px;
+}
+
+.content3 {
+    background-color: rgb(214, 88, 15);
+    width: 500px;
+    height: 200px;
+}
+
+.content4 {
+    background-color: rgb(192, 162, 182);
+    width: 500px;
+    /* height: 200px; */
+}
+
+.clase1 {
+    text-decoration: line-through;
+}
+
+.clase2 {
+    text-decoration: overline;
+}
+
+#claseID {
+    text-decoration: underline;
+}
+
+.up {
+    text-transform: uppercase;
+}
+
+.down {
+    text-transform: lowercase;
+}
+
+.cap {
+    text-transform: capitalize;
+}
+
+h1 {
+    text-align: center;
+}
+
+.alineacion {
+    text-align: justify;
+}
+
+.indentar {
+    border: 2px greenyellow solid;
+    /* indent sirve para dar sangria */
+    text-indent: 20%;
+    text-align: justify;
+    /* text-shadow:
+    rgba(0, 0, 0, 0.1) -1px 0,
+    rgba(0, 0, 0, 0.1) 0 -1px,
+    rgba(255, 255, 255, 0.1) 1px 0,
+    rgba(255, 255, 255, 0.1) 0 1px,
+    rgba(0, 0, 0, 0.1) -1px -1px,
+    rgba(255, 255, 255, 0.1) 1px 1px;
+  color: gold;
+  background: gold; */
+    text-shadow:
+        1px 1px 2px black,
+        0 0 1em blue,
+        0 0 0.2em blue;
+    color: white;
+    font:
+        1.5em Georgia,
+        "Bitstream Charter",
+        "URW Bookman L",
+        "Century Schoolbook L",
+        serif;
+
+}

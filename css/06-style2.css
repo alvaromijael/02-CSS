@@ -1,0 +1,13 @@
+.titulo{
+    
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: orange 2px 2px 5px;
+    color:blue;
+    letter-spacing: 3px;
+}
+.parrafo{
+    letter-spacing: -3px;
+    text-indent: 75px;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            height: 100px;
+            width: 100px;
+            border: 1px solid red;
+            position: static;
+        }
+
+        .relativa {
+            position: relative;
+            top: 30px;
+            left: 300px;
+        }
+
+        .fija {
+            position: fixed;
+            top: 50%;
+            left: 60%
+        }
+
+        .padre {
+            position: fixed;
+            width: 200px;
+            height: 200px;
+            background-color: antiquewhite;
+            border: 1px solid;
+            left: 20%;
+        }
+
+        .hijo {
+            position: sticky;
+            background-color: blue;
+            bottom: 0%;
+            right: 0%;
+        }
+
+        /* .one{
+            height: 100px;
+            width: 100px;
+            background-color: aqua;
+            border: 1px solid rgb(42, 211, 8);
+            position: static;
+        }
+        .two{
+            height: 100px;
+            width: 100px;
+            background-color: rgb(206, 193, 17);
+            border: 1px solid rgb(28, 8, 211);
+            position: static;
+            margin-left: 20px;
+        } */
+    </style>
+</head>
+
+<body>
+    <div>1</div>
+    <div class="relativa">2</div>
+    <!-- <span class="one">123</span>
+    <span class="two">sfdvsdv</span> -->
+    <div class="fija">3</div>
+
+    <div class="padre">
+        Esta es una muestra de que es padre Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt dolore
+        ipsum fugiat quis ducimus totam modi, quo neque omnis eaque tempora deserunt sapiente alias mollitia sed.
+        Nesciunt deleniti cumque error Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos inventore
+        consequuntur impedit magnam aperiam ea earum id asperiores officia cupiditate laudantium maiores fugit, fugiat
+        excepturi aut odit ipsum corporis molestias? Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae,
+        et recusandae amet voluptatum deleniti, ab perferendis reprehenderit maxime vero beatae alias aperiam
+        necessitatibus possimus asperiores, optio obcaecati odit nisi labore.
+        <div class="hijo">caja de texto</div>
+    </div>
+
+</body>
+
+</html>

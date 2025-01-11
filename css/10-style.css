@@ -1,0 +1,17 @@
+table,th,td{
+    border: 1px solid blue;
+    border-collapse: collapse;
+}
+
+th,td{
+    border-bottom: 1.5px solid #ddd;
+}
+
+tr:nth-child(odd){
+    background-color: green;
+}
+
+tr:hover{
+    background-color: orange;
+}
+

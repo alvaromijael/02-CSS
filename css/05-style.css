@@ -1,0 +1,17 @@
+.clase1{
+    width: 700px;
+    height: 200px;
+    background-color: orange;
+    margin-bottom: 20px;
+    border: 20px solid;
+    box-sizing: content-box;
+}
+
+.clase2{
+    width: 700px;
+    height: 200px;
+    background-color: green;
+    border: 20px solid;
+    box-sizing: border-box   ;
+   
+}

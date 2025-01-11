@@ -1,0 +1,12 @@
+div{
+    border: 1px solid seagreen;
+    width: 500px;
+    height: 500px;
+}
+.a{
+    width: 50px;
+    height: 30px;
+    display: none;
+    
+} 
+

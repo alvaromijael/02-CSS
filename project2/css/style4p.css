@@ -1,0 +1,220 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+}
+
+.container{
+    width: 100%;
+    height: 70vh;
+    display:grid;
+    grid-template-rows: 2fr 5fr;
+    margin-inline:auto;
+   
+}
+
+.titulo{
+    /* border: 1px black solid; */
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-image: linear-gradient(to top,rgb(78, 3, 97),rgb(239, 156, 247));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 25px;
+}
+
+.imagenes{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+   
+}
+.img1{
+    display: grid;
+    grid-template-rows: 5fr 2fr;
+    /* border: 1px black solid; */
+   
+}
+.img2{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+   
+
+}
+.img3{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.texto{
+    margin: 10px;
+    border: 1px dashed rgb(202, 16, 156);
+    text-align: center;
+    color: rgb(107, 18, 134);
+    width: 200px;
+   
+}
+
+hr {
+    border: solid 1px rgb(102, 11, 138);
+    width: 80px;
+    display:grid;
+    justify-items: center;
+}
+
+.circulo{
+    border: solid 1px rgb(102, 11, 138);
+    width: 180px;
+    height: 180px;
+    border-radius: 90px;
+    background-image: linear-gradient(to bottom,rgb(78, 3, 97),rgb(228, 47, 159));
+    position: relative;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+
+    /* overflow: hidden; */
+    
+}
+
+.circulo2{
+    border: solid 1px rgb(223, 10, 205);
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255); 
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    color: blueviolet;
+    position: absolute;
+    bottom:90%;
+    left: 55%;
+    
+}
+img {
+    filter: invert(1); 
+    
+  }
+
+  @media screen and (max-width:430px){
+    * {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        box-sizing: border-box;
+    }
+    
+    body{
+        margin:0;
+    }
+    
+    .container{
+        width: 100%;
+        height: 70vh;
+        display:grid;
+        grid-template-rows: 2fr 5fr;
+        /* margin-inline:auto; */
+       
+    }
+    
+    .titulo{
+        /* border: 1px black solid; */
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        background-image: linear-gradient(to top,rgb(78, 3, 97),rgb(239, 156, 247));
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        font-size: 25px;
+    }
+    
+    .imagenes{
+        display:flex;
+        flex-direction: column;
+        justify-items: center;
+        width: 90%;
+        margin-left: 25px;
+    }
+    .img1{
+        display: grid;
+        grid-template-rows: 5fr 2fr;
+        
+        /* border: 1px black solid; */
+       
+    }
+    .img2{
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        
+    
+    }
+    .img3{
+        display: grid;
+        justify-items: center;
+        align-items: center;
+    
+    }
+    
+    .texto{
+        margin: 10px;
+        border: 1px dashed rgb(202, 16, 156);
+        text-align: center;
+        color: rgb(107, 18, 134);
+        width: 200px;
+       
+    }
+    
+    hr {
+        border: solid 1px rgb(102, 11, 138);
+        width: 80px;
+        display:grid;
+        justify-items: center;
+    }
+    
+    .circulo{
+        border: solid 1px rgb(102, 11, 138);
+        width: 180px;
+        height: 180px;
+        border-radius: 90px;
+        background-image: linear-gradient(to bottom,rgb(78, 3, 97),rgb(228, 47, 159));
+        position: relative;
+        display: grid;
+        justify-items: center;
+        align-items: center;
+    
+        /* overflow: hidden; */
+        
+    }
+    
+    .circulo2{
+        border: solid 1px rgb(223, 10, 205);
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: rgb(255, 255, 255); 
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        color: blueviolet;
+        position: absolute;
+        bottom:90%;
+        left: 55%;
+        
+    }
+    img {
+        filter: invert(1); 
+        
+      }
+
+
+  }
+
+  
